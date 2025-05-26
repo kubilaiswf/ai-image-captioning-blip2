@@ -66,6 +66,7 @@ Below are some sample outputs from my pipeline.
     <img src="./sample_images/100003.jpg" alt="Red Laptop Display" width="300"/>
     
     **Prediction:** `a photo of a red laptop on display at a store`
+
     **Comment:** This is a good, specific prediction. The model correctly identifies the color (red), the object (laptop), its status (on display), and the likely context (at a store).
 
 3.  **Image ID:** `100007.jpg`
@@ -73,6 +74,7 @@ Below are some sample outputs from my pipeline.
     <img src="./sample_images/100007.jpg" alt="Small Airplanes on Tarmac" width="300"/>
    
     **Prediction:** `a photo of a small airplane parked on the tarmac`
+
     **Comment:** This is a clear and accurate caption. It correctly identifies the type of aircraft (small airplane), its state (parked), and its location (on the tarmac), which matches the visual well.
 
 5.  **Image ID:** `100019.jpg`
@@ -80,6 +82,7 @@ Below are some sample outputs from my pipeline.
     <img src="./sample_images/100019.jpg" alt="Samsung Notebook" width="300"/>
     
     **Prediction:** `a photo of a samsung notebook computer`
+
     **Comment:** This is a concise and accurate identification, correctly naming the brand (Samsung) and the type of device (notebook computer).
 
 **Poor/Failure Cases (or areas for improvement):**
@@ -89,6 +92,7 @@ Below are some sample outputs from my pipeline.
     <img src="./sample_images/100001.jpg" alt="Knives on Beach" width="300"/>
    
     **Prediction:** `a photo of a person holding a knife on a beach`
+
     **Comment:** Partially correct but potentially misleading. The image shows a hand with a watch and wallet, with two large knives displayed upright in wood on a beach. "Person holding a knife" isn't entirely accurate as the knives are displayed, not actively held for use by the person whose hand is visible. The model focused on "knife" and simplified the scene.
 
 3.  **Image ID:** `100005.jpg`
@@ -96,6 +100,7 @@ Below are some sample outputs from my pipeline.
     <img src="./sample_images/100005.jpg" alt="Tall Building" width="300"/>
    
     **Prediction:** `a photo of a tall building with a sky background`
+
     **Comment:** Too generic. While true (it's a tall, modern glass building with a "CAT" logo), the caption lacks specificity regarding its reflective nature, modern architecture, or the visible logo.
 
 5.  **Image ID:** `100013.jpg`
@@ -103,6 +108,7 @@ Below are some sample outputs from my pipeline.
     <img src="./sample_images/100013.jpg" alt="Poker Hand" width="300"/>
    
     **Prediction:** `a photo of poker chips and dice`
+
     **Comment:** Accurate but incomplete. The image shows a royal flush in hearts, poker chips, and a die. The caption identifies chips and dice but misses the very significant poker hand.
 
 ## Analysis of Model Performance
