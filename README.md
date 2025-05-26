@@ -10,12 +10,13 @@ My solution utilizes the **Salesforce BLIP-2 OPT 2.7B model**, a powerful pre-tr
 
 ## Tech Stack
 
-*   **Programming Language:** Python 3.11 (as per Google Colab environment)
+*   **Programming Language:** Python 3.11.12 (as per Google Colab environment)
 *   **Core Libraries:**
-    *   PyTorch (Version: `2.3.0+cu121`) <!-- Verify with torch.__version__ -->
-    *   HuggingFace Transformers (Version: `4.41.2`) <!-- Verify with transformers.__version__ -->
+    *   PyTorch (Version: `2.6.0+cu124`)
+    *   HuggingFace Transformers (Version: `4.51.3`)
     *   Pillow (PIL)
     *   Pandas
+    *   BitsAndBytes 0.45.5
     *   Tqdm
 *   **Model & Techniques:**
     *   **Model:** `Salesforce/blip2-opt-2.7b`
